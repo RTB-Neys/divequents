@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+}
+
+html {
+    font-size: 20px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(71, 64, 77);
+    color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar {
+    width: 45rem;
+    height: 52rem;
+    background-color: rgb(105, 11, 105);
+    box-shadow:0 0.5rem 3rem rgb(97, 10, 97);
+}
+
+.day {
+    width: 100%;
+    height: 10rem;
+    background-color: rosybrown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.day i {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.date h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    margin-bottom: 1rem;
+}
+
+.date p {
+    font-size: 1.6rem;
+}
+
